@@ -72,6 +72,38 @@ namespace fvm
         BlockLduSystem<vector, typename outerProduct<vector, Type>::type>
     > grad
     (
+        const surfaceScalarField&,
+        const GeometricField<Type, fvPatchField, volMesh>&,
+        const word&
+    );
+
+
+    template<class Type>
+    tmp
+    <
+        BlockLduSystem<vector, typename outerProduct<vector, Type>::type>
+    > grad
+    (
+        const GeometricField<Type, fvPatchField, volMesh>&
+    );
+
+    template<class Type>
+    tmp
+    <
+        BlockLduSystem<vector, typename outerProduct<vector, Type>::type>
+    > grad
+    (
+        const surfaceScalarField&,
+        const GeometricField<Type, fvPatchField, volMesh>&
+    );
+
+    template<class Type>
+    tmp
+    <
+        BlockLduSystem<vector, typename outerProduct<vector, Type>::type>
+    > grad
+    (
+        const tmp<surfaceScalarField>&,
         const GeometricField<Type, fvPatchField, volMesh>&
     );
 }

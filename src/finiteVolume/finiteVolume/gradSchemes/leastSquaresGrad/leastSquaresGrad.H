@@ -109,6 +109,15 @@ public:
         (
             const GeometricField<Type, fvPatchField, volMesh>&
         ) const;
+
+        tmp
+        <
+            BlockLduSystem<vector, typename outerProduct<vector, Type>::type>
+        > fvmGrad
+        (
+            const surfaceScalarField&,        
+            const GeometricField<Type, fvPatchField, volMesh>&
+        ) const;        
 };
 
 

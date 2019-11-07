@@ -198,6 +198,12 @@ public:
             (
                 const GeoFieldType&
             ) const;
+            
+            virtual tmp<GradMatrixType> fvmGrad
+            (
+                const surfaceScalarField&,
+                const GeoFieldType&
+            ) const;
 };
 
 

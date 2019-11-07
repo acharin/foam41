@@ -56,6 +56,12 @@ tmp<BlockLduSystem<vector, vector> > leastSquaresGrad<scalar>::fvmGrad
     const GeometricField<scalar, fvPatchField, volMesh>&
 ) const;
 
+template<>
+tmp<BlockLduSystem<vector, vector> > leastSquaresGrad<scalar>::fvmGrad
+(
+    const surfaceScalarField& flux,
+    const GeometricField<scalar, fvPatchField, volMesh>&
+) const;
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

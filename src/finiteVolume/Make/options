@@ -1,4 +1,4 @@
-EXE_INC = \
+EXE_INC =-ftemplate-depth-750\
     -I$(LIB_SRC)/meshTools/lnInclude
 
 LIB_LIBS = \

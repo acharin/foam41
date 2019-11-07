@@ -1,7 +1,7 @@
 /*---------------------------------------------------------------------------*\
   =========                 |
   \\      /  F ield         | foam-extend: Open Source CFD
-   \\    /   O peration     | Version:     4.1
+   \\    /   O peration     | Version:     3.2
     \\  /    A nd           | Web:         http://www.foam-extend.org
      \\/     M anipulation  | For copyright notice see file Copyright
 -------------------------------------------------------------------------------
@@ -34,55 +34,87 @@ Description
 #include "vector3.H"
 #include "vector4.H"
 #include "vector6.H"
+#include "vector7.H"
 #include "vector8.H"
+#include "vector10.H"
+#include "vector13.H"
+#include "vector16.H"
 
 #include "tensor2.H"
 #include "tensor3.H"
 #include "tensor4.H"
 #include "tensor6.H"
+#include "tensor7.H"
 #include "tensor8.H"
+#include "tensor10.H"
+#include "tensor13.H"
+#include "tensor16.H"
 
 #include "diagTensor2.H"
 #include "diagTensor3.H"
 #include "diagTensor4.H"
 #include "diagTensor6.H"
+#include "diagTensor7.H"
 #include "diagTensor8.H"
+#include "diagTensor10.H"
+#include "diagTensor13.H"
+#include "diagTensor16.H"
 
 #define forAllVectorNTypes(m, args...)              \
     m(vector2, Vector2, args)                       \
     m(vector3, Vector3, args)                       \
     m(vector4, Vector4, args)                       \
     m(vector6, Vector6, args)                       \
-    m(vector8, Vector8, args)
+    m(vector7, Vector7, args)                       \
+    m(vector8, Vector8, args)                       \
+    m(vector10, Vector10, args)                     \
+    m(vector13, Vector13, args)                     \
+    m(vector16, Vector16, args)                     
 
 #define forAllTensorNTypes(m, args...)              \
     m(tensor2, Tensor2, args)                       \
     m(tensor3, Tensor3, args)                       \
     m(tensor4, Tensor4, args)                       \
     m(tensor6, Tensor6, args)                       \
-    m(tensor8, Tensor8, args)
-
+    m(tensor7, Tensor7, args)                       \
+    m(tensor8, Tensor8, args)                       \
+    m(tensor10, Tensor10, args)                     \
+    m(tensor13, Tensor13, args)                     \
+    m(tensor16, Tensor16, args)
+    
 #define forAllDiagTensorNTypes(m, args...)          \
     m(diagTensor2, DiagTensor2, args)               \
     m(diagTensor3, DiagTensor3, args)               \
     m(diagTensor4, DiagTensor4, args)               \
     m(diagTensor6, DiagTensor6, args)               \
-    m(diagTensor8, DiagTensor8, args)
-
+    m(diagTensor7, DiagTensor7, args)               \
+    m(diagTensor8, DiagTensor8, args)               \
+    m(diagTensor10, DiagTensor10, args)             \
+    m(diagTensor13, DiagTensor13, args)             \
+    m(diagTensor16, DiagTensor16, args)
+    
 #define forAllSphericalTensorNTypes(m, args...)     \
     m(sphericalTensor2, SphericalTensor2, args)     \
     m(sphericalTensor3, SphericalTensor3, args)     \
     m(sphericalTensor4, SphericalTensor4, args)     \
     m(sphericalTensor6, SphericalTensor6, args)     \
-    m(sphericalTensor8, SphericalTensor8, args)
-
+    m(sphericalTensor7, SphericalTensor7, args)     \
+    m(sphericalTensor8, SphericalTensor8, args)     \
+    m(sphericalTensor10, SphericalTensor10, args)   \
+    m(sphericalTensor13, SphericalTensor13, args)   \
+    m(sphericalTensor16, SphericalTensor16, args) 
+      
 #define forAllVectorTensorNTypes(m, args...)                            \
     m(tensor2, diagTensor2, sphericalTensor2, vector2, scalar, args)    \
     m(tensor3, diagTensor3, sphericalTensor3, vector3, scalar, args)    \
     m(tensor4, diagTensor4, sphericalTensor4, vector4, scalar, args)    \
     m(tensor6, diagTensor6, sphericalTensor6, vector6, scalar, args)    \
-    m(tensor8, diagTensor8, sphericalTensor8, vector8, scalar, args)
-
+    m(tensor7, diagTensor7, sphericalTensor7, vector7, scalar, args)    \
+    m(tensor8, diagTensor8, sphericalTensor8, vector8, scalar, args)    \
+    m(tensor10, diagTensor10, sphericalTensor10, vector10, scalar, args)  \
+    m(tensor13, diagTensor13, sphericalTensor13, vector13, scalar, args)  \
+    m(tensor16, diagTensor16, sphericalTensor16, vector16, scalar, args)
+    
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #endif

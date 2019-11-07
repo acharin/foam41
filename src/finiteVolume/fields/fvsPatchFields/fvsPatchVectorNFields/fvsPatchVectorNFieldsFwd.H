@@ -41,25 +41,41 @@ typedef fvsPatchField<vector2> fvsPatchVector2Field;
 typedef fvsPatchField<vector3> fvsPatchVector3Field;
 typedef fvsPatchField<vector4> fvsPatchVector4Field;
 typedef fvsPatchField<vector6> fvsPatchVector6Field;
+typedef fvsPatchField<vector7> fvsPatchVector7Field;
 typedef fvsPatchField<vector8> fvsPatchVector8Field;
+typedef fvsPatchField<vector10> fvsPatchVector10Field;
+typedef fvsPatchField<vector13> fvsPatchVector13Field;
+typedef fvsPatchField<vector16> fvsPatchVector16Field;
 
 typedef fvsPatchField<tensor2> fvsPatchTensor2Field;
 typedef fvsPatchField<tensor3> fvsPatchTensor3Field;
 typedef fvsPatchField<tensor4> fvsPatchTensor4Field;
 typedef fvsPatchField<tensor6> fvsPatchTensor6Field;
+typedef fvsPatchField<tensor7> fvsPatchTensor7Field;
 typedef fvsPatchField<tensor8> fvsPatchTensor8Field;
+typedef fvsPatchField<tensor10> fvsPatchTensor10Field;
+typedef fvsPatchField<tensor13> fvsPatchTensor13Field;
+typedef fvsPatchField<tensor16> fvsPatchTensor16Field;
 
 typedef fvsPatchField<diagTensor2> fvsPatchDiagTensor2Field;
 typedef fvsPatchField<diagTensor3> fvsPatchDiagTensor3Field;
 typedef fvsPatchField<diagTensor4> fvsPatchDiagTensor4Field;
 typedef fvsPatchField<diagTensor6> fvsPatchDiagTensor6Field;
+typedef fvsPatchField<diagTensor7> fvsPatchDiagTensor7Field;
 typedef fvsPatchField<diagTensor8> fvsPatchDiagTensor8Field;
+typedef fvsPatchField<diagTensor10> fvsPatchDiagTensor10Field;
+typedef fvsPatchField<diagTensor13> fvsPatchDiagTensor13Field;
+typedef fvsPatchField<diagTensor16> fvsPatchDiagTensor16Field;
 
 typedef fvsPatchField<sphericalTensor2> fvsPatchSphericalTensor2Field;
 typedef fvsPatchField<sphericalTensor3> fvsPatchSphericalTensor3Field;
 typedef fvsPatchField<sphericalTensor4> fvsPatchSphericalTensor4Field;
 typedef fvsPatchField<sphericalTensor6> fvsPatchSphericalTensor6Field;
+typedef fvsPatchField<sphericalTensor7> fvsPatchSphericalTensor7Field;
 typedef fvsPatchField<sphericalTensor8> fvsPatchSphericalTensor8Field;
+typedef fvsPatchField<sphericalTensor10> fvsPatchSphericalTensor10Field;
+typedef fvsPatchField<sphericalTensor13> fvsPatchSphericalTensor13Field;
+typedef fvsPatchField<sphericalTensor16> fvsPatchSphericalTensor16Field;
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

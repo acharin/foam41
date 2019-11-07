@@ -41,25 +41,41 @@ typedef faePatchField<vector2> faePatchVector2Field;
 typedef faePatchField<vector3> faePatchVector3Field;
 typedef faePatchField<vector4> faePatchVector4Field;
 typedef faePatchField<vector6> faePatchVector6Field;
+typedef faePatchField<vector7> faePatchVector7Field;
 typedef faePatchField<vector8> faePatchVector8Field;
+typedef faePatchField<vector10> faePatchVector10Field;
+typedef faePatchField<vector13> faePatchVector13Field;
+typedef faePatchField<vector16> faePatchVector16Field;
 
 typedef faePatchField<tensor2> faePatchTensor2Field;
 typedef faePatchField<tensor3> faePatchTensor3Field;
 typedef faePatchField<tensor4> faePatchTensor4Field;
 typedef faePatchField<tensor6> faePatchTensor6Field;
+typedef faePatchField<tensor7> faePatchTensor7Field;
 typedef faePatchField<tensor8> faePatchTensor8Field;
+typedef faePatchField<tensor10> faePatchTensor10Field;
+typedef faePatchField<tensor13> faePatchTensor13Field;
+typedef faePatchField<tensor16> faePatchTensor16Field;
 
 typedef faePatchField<diagTensor2> faePatchDiagTensor2Field;
 typedef faePatchField<diagTensor3> faePatchDiagTensor3Field;
 typedef faePatchField<diagTensor4> faePatchDiagTensor4Field;
 typedef faePatchField<diagTensor6> faePatchDiagTensor6Field;
+typedef faePatchField<diagTensor7> faePatchDiagTensor7Field;
 typedef faePatchField<diagTensor8> faePatchDiagTensor8Field;
+typedef faePatchField<diagTensor10> faePatchDiagTensor10Field;
+typedef faePatchField<diagTensor13> faePatchDiagTensor13Field;
+typedef faePatchField<diagTensor16> faePatchDiagTensor16Field;
 
 typedef faePatchField<sphericalTensor2> faePatchSphericalTensor2Field;
 typedef faePatchField<sphericalTensor3> faePatchSphericalTensor3Field;
 typedef faePatchField<sphericalTensor4> faePatchSphericalTensor4Field;
 typedef faePatchField<sphericalTensor6> faePatchSphericalTensor6Field;
+typedef faePatchField<sphericalTensor7> faePatchSphericalTensor7Field;
 typedef faePatchField<sphericalTensor8> faePatchSphericalTensor8Field;
+typedef faePatchField<sphericalTensor10> faePatchSphericalTensor10Field;
+typedef faePatchField<sphericalTensor13> faePatchSphericalTensor13Field;
+typedef faePatchField<sphericalTensor16> faePatchSphericalTensor16Field;
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

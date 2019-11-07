@@ -1114,10 +1114,10 @@ void Foam::regionCouplePolyPatch::initMovePoints(const pointField& p)
 {
     clearGeom();
 
-    // Clear transforms on mesh motion?
+    // Calculate transforms on mesh motion?
     calcTransforms();
 
-    if (master() && active())
+    if (master())
     {
         shadow().clearGeom();
         shadow().calcTransforms();

@@ -1,0 +1,77 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | foam-extend: Open Source CFD                    |
+|  \\    /   O peration     | Version:     4.1                                |
+|   \\  /    A nd           | Web:         http://www.foam-extend.org         |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       polyBoundaryMesh;
+    location    "constant/polyMesh";
+    object      boundary;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+9
+(
+    maxY
+    {
+        type            empty;
+        nFaces          0;
+        startFace       59065;
+    }
+    minX
+    {
+        type            empty;
+        nFaces          0;
+        startFace       59065;
+    }
+    maxX
+    {
+        type            empty;
+        nFaces          0;
+        startFace       59065;
+    }
+    minY
+    {
+        type            empty;
+        nFaces          0;
+        startFace       59065;
+    }
+    ground
+    {
+        type            wall;
+        nFaces          590;
+        startFace       59065;
+    }
+    maxZ
+    {
+        type            empty;
+        nFaces          0;
+        startFace       59655;
+    }
+    igloo_region0
+    {
+        type            wall;
+        nFaces          2260;
+        startFace       59655;
+    }
+    twoFridgeFreezers_seal_0
+    {
+        type            wall;
+        nFaces          1344;
+        startFace       61915;
+    }
+    twoFridgeFreezers_herring_1
+    {
+        type            wall;
+        nFaces          1116;
+        startFace       63259;
+    }
+)
+
+
+// ************************************************************************* //
